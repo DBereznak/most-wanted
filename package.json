@@ -1,0 +1,30 @@
+{
+  "name": "most-wanted",
+  "version": "1.0.0",
+  "description": "A old western take on the FBI most wanted",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "api/api.js",
+    "dev": "parcel app/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DBereznak/most-wanted.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DBereznak/most-wanted/issues"
+  },
+  "homepage": "https://github.com/DBereznak/most-wanted#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}
